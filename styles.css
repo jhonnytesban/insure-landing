@@ -38,6 +38,8 @@ body{
   position: absolute;
   width: 30vw;
   height: calc(100vh - 78.875px);
+  height: -webkit-calc(100vh - 78.875px);
+  height: -moz-calc(100vh - 78.875px);
   right: 140%;
   bottom: 0;
   background-image: url(./images/bg-pattern-mobile-nav.svg);

@@ -1,0 +1,62 @@
+:root{
+  /* Colors */
+  --primary-violet: hsl(256, 26%, 20%);
+  --primary-blue: hsl(216, 30%, 68%);
+
+  --neutral-violetDD: hsl(270, 9%, 17%);
+  --neutral-violetD: hsl(273, 4%, 51%);
+  --neutral-grayish: hsl(0, 0%, 98%);
+
+  /* Fonts */
+  --font-heading: 'DM Serif Display', serif;  /* 400 */
+  --font-body: 'Karla', sans-serif;           /* 400, 700 */
+}
+body{
+  font-size: 16px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.nav{
+  background-color: var(--neutral-violetDD);
+  position: absolute;
+  width: 100vw;
+  height: calc(100vh - 78.875px);
+  right: 0;
+  bottom: 0;
+}
+.nav{
+  background-image: url(./images/bg-pattern-mobile-nav.svg);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 40%;
+}
+.menu__list{
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.list__item{
+  margin: 20px 40px;
+}
+.link{
+  text-decoration: none;
+  color: var(--neutral-grayish);
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  display: block;
+  height: 40px;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.icon-menu{
+  object-fit: contain;
+}
+.link:hover{
+  outline: 1px solid white;
+}

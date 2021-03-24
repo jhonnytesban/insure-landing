@@ -20,19 +20,38 @@ body{
   padding: 0 20px;
   box-sizing: border-box;
 }
-.nav{
+.nav-active{
   background-color: var(--neutral-violetDD);
   position: absolute;
   width: 100vw;
   height: calc(100vh - 78.875px);
   right: 0;
   bottom: 0;
-}
-.nav{
   background-image: url(./images/bg-pattern-mobile-nav.svg);
   background-repeat: no-repeat;
   background-position: 0 100%;
   background-size: 100% 40%;
+  transition: all 1s;
+}
+.nav-deactive{
+  background-color: var(--neutral-violetDD);
+  position: absolute;
+  width: 30vw;
+  height: calc(100vh - 78.875px);
+  right: 140%;
+  bottom: 0;
+  background-image: url(./images/bg-pattern-mobile-nav.svg);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 40%;
+  transition: all 1s;
+  overflow: hidden;
+}
+.menu-open{
+  content: url(./images/icon-hamburger.svg);
+}
+.menu-close{
+  content: url(./images/icon-close.svg);
 }
 .menu__list{
   padding: 0;

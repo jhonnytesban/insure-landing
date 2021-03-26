@@ -152,9 +152,60 @@ body{
 .line{
   width: 40%;
 }
+.article-section{
+  padding: 0 25px;
+  margin-bottom: 50px;
+}
+.article-section:nth-child(4){
+  margin-bottom: 100px;
+}
 .article__subtitle{
   font-family: var(--font-heading);
   font-weight: 400;
   text-align: center;
   font-size: 2.8em;
+  margin-bottom: 40px;
+}
+.section__img{
+  display: block;
+  margin: auto;
+}
+.section__subtitle{
+  font-family: var(--font-heading);
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+}
+.section__text{
+  font-family: var(--font-body);
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+.section-info{
+  margin: 100px 20px;
+  background-color: var(--primary-violet);
+  padding: 40px;
+  background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 55% 90%;
+}
+.section-info__subtitle{
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 2.4em;
+  text-align: center;
+  color: #fff;
+}
+.info__link{
+  font-family: var(--font-body);
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 50%;
+  margin: auto;
+  border: 1px solid #fff;
+  padding: 10px;
 }

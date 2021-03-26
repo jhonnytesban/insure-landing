@@ -15,6 +15,9 @@ body{
   font-size: 16px;
 }
 .header{
+}
+.container__header{
+  
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
@@ -78,4 +81,7 @@ body{
 }
 .link:hover{
   outline: 1px solid white;
+}
+.image{
+  width: 100%;
 }

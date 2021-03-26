@@ -12,10 +12,12 @@
 </head>
 <body>
   <header class="header">
-    <h1 id=”logo” title="Insure">
-      <img src="images/logo.svg" alt="Logotipo Insure" />
-    </h1>
-    <img id="menu" src="./images/icon-hamburger.svg" alt="Menú" class="icon-menu menu-open">
+    <div class="container__header">
+      <h1 id=”logo” title="Insure">
+        <img src="images/logo.svg" alt="Logotipo Insure" />
+      </h1>
+      <img id="menu" src="./images/icon-hamburger.svg" alt="Menú" class="icon-menu menu-open">
+    </div>
     <nav id="nav" class="nav-deactive">
       <ul class="menu__list">
         <li class="list__item"><a href="#" class="link">How we work</a></li>
@@ -24,6 +26,11 @@
         <li class="list__item"><a href="#" class="link">View plans</a></li>
       </ul>
     </nav>
+    <picture>
+      <source media="(max-width: 375px)" srcset="images/image-intro-mobile.jpg">
+      <source media="(min-width: 475px)" srcset="images/image-intro-desktop.jpg">
+        <img class="image" src="./images/image-intro-desktop.jpg" alt="">
+    </picture>
   </header>
 
   

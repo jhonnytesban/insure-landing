@@ -252,3 +252,53 @@ body{
   background-color: var(--primary-violet);
   margin-bottom: 40px;
 }
+
+@media (min-width: 1024px) {
+  /* Header */
+  .header__menu-D{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+  }
+  .container__header{
+    position: static;
+    width: auto;
+  }
+  .nav-deactive{
+    position: static;
+    visibility:visible;
+    opacity: 1;
+    background: none;
+    height: auto;
+    padding: 0;
+  }
+  .menu__list{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .list__item{
+    display: inline;
+  }
+  .icon-menu{
+    display: none;
+  }
+  .link{
+    color: var(--primary-blue);
+    margin-left: 40px;
+    margin-right: 10px;
+    /* display: inline; */
+    padding: 10px 20px;
+    outline: none;
+    transition: all 1s;
+  }
+  .link:hover{
+    outline: 1px solid black;
+    color: black;
+    transition: all .5s;
+  }
+  .list__item {
+    margin: 0;
+  }
+
+}
